@@ -30,7 +30,7 @@ def find_isomorphisms_networkx(matrix, num_nodes, letter_adj_dict, pins=None):
     return nx.vf2pp_isomorphism(G1, G2)
 
 
-# # Пример использованияlist(
+# #
 # P = ['П1', 'П2', 'П3', 'П4', 'П5', 'П6', 'П7']
 # M = [
 #     [0, 0, 10, 0, 0, 0, 0],
